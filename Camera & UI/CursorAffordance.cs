@@ -18,7 +18,7 @@ public class CursorAffordance : MonoBehaviour {
 	}
 
 	void OnDelegateCall(Layer layer) {
-		print ("CursorAffordances delegate reporting for duty!");
+		//print ("CursorAffordances delegate reporting for duty!");
 		switch (layer) {
 
 		case Layer.Walkable:
